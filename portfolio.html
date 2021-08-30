@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <script src="myScript.js"></script>
+    <title>A Cat's Portfolio</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="https://i.ibb.co/X8mx0Lz/Untitled-design-14.png" height="50px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="false">Home</a>
+            </li>
+     
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+     
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html" tabindex="-1" aria-disabled="false">Contact</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="pricing.html" tabindex="-1" aria-disabled="false">Blog</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <h2>ART PORTFOLIO</h2>
+      <div id="myBtnContainer">
+        <button class="btn" onclick="filterSelection('all')"> All</button>
+        <button class="btn" onclick="filterSelection('pets')"> Pets</button>
+        <button class="btn" onclick="filterSelection('landscapes/venues')"> Landscapes/Venues</button>
+        <button class="btn" onclick="filterSelection('portraits')"> Portraits</button>
+        <button class="btn" onclick="filterSelection('custom')"> Custom</button>
+      </div>
+      
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column pets">
+          <div class="content">
+            <img src="https://i.ibb.co/sy8YbGd/Copy-of-Untitled-9.png" alt="pets 1" style="width:100%">
+          </div>
+        </div>
+        <div class="column pets">
+          <div class="content">
+            <img src="https://i.ibb.co/J29Gh2s/Copy-of-Untitled-10.png" alt="pets 2" style="width:100%">
+          </div>
+        </div>
+        <div class="column pets">
+          <div class="content">
+            <img src="https://i.ibb.co/gdSh1mN/Copy-of-Untitled-11.png" alt="pets 3" style="width:100%">
+          </div>
+        </div>
+        <div class="column pets">
+            <div class="content">
+              <img src="https://i.ibb.co/n7L3WKv/Copy-of-Untitled-12.png" alt="pets 4" style="width:100%">
+            </div>
+          </div>
+          <div class="column pets">
+            <div class="content">
+              <img src="https://i.ibb.co/7nyvBYQ/Copy-of-Untitled-13.png" alt="pets 5" style="width:100%">
+            </div>
+          </div>
+          <div class="column pets">
+            <div class="content">
+              <img src="https://i.ibb.co/5vc7yDk/Copy-of-Untitled-14.png" alt="pets 6" style="width:100%">
+            </div>
+          </div>
+          <div class="column pets">
+            <div class="content">
+              <img src="https://i.ibb.co/hBZH8hh/Copy-of-Untitled-15.png" alt="pets 7" style="width:100%">
+            </div>
+          </div>
+          <div class="column pets">
+            <div class="content">
+              <img src="https://i.ibb.co/3N5k45B/Copy-of-Untitled-16.png" alt="pets 8" style="width:100%">
+            </div>
+          </div>
+          <div class="column pets">
+            <div class="content">
+              <img src="https://i.ibb.co/T4wQGKP/Copy-of-Untitled-28.png" alt="pets 9" style="width:100%">
+            </div>
+          </div>
+      
+        <div class="column landscapes/venues">
+          <div class="content">
+            <img src="https://i.ibb.co/KjBFm97/Copy-of-Untitled-25.png" alt="landscapes/venues 1" style="width:100%">
+          </div>
+        </div>
+        <div class="column landscapes/venues">
+          <div class="content">
+            <img src="https://i.ibb.co/QKqJD54/Copy-of-Untitled-26.png" alt="landscapes/venues 2" style="width:100%">
+          </div>
+        </div>
+        <div class="column landscapes/venues">
+          <div class="content">
+            <img src="https://i.ibb.co/4Nr8dS5/Copy-of-Untitled-20.png" alt="landscapes/venues 3" style="width:100%">
+          </div>
+        </div>
+        <div class="column landscapes/venues">
+            <div class="content">
+              <img src="https://i.ibb.co/vPT5CZL/Copy-of-Untitled-27.png" alt="landscapes/venues 4" style="width:100%">
+            </div>
+          </div>
+          
+      
+        <div class="column portraits">
+          <div class="content">
+            <img src="https://i.ibb.co/whr3BXN/Copy-of-Untitled-32.png" alt="Portrait 1" style="width:100%">
+          </div>
+        </div>
+        <div class="column portraits">
+          <div class="content">
+            <img src="https://i.ibb.co/R0bDtqc/Copy-of-Untitled-4.png" alt="Portrait 2" style="width:100%">
+          </div>
+        </div>
+        <div class="column portraits">
+          <div class="content">
+            <img src="https://i.ibb.co/WGZfqjB/Copy-of-Untitled-29.png" alt="Portrait 3" style="width:100%"> 
+          </div>
+        </div>
+        <div class="column portraits">
+            <div class="content">
+              <img src="https://i.ibb.co/hCGTyTC/Copy-of-Untitled-30.png" alt="Portrait 4" style="width:100%"> 
+            </div>
+          </div>
+          <div class="column portraits">
+            <div class="content">
+              <img src="https://i.ibb.co/Qm2gs0T/Copy-of-Untitled-31.png" alt="Portrait 5" style="width:100%"> 
+            </div>
+          </div>
+          <div class="column portraits">
+            <div class="content">
+              <img src="https://i.ibb.co/1ffMCCx/Copy-of-Untitled-8.png" alt="Portrait 6" style="width:100%"> 
+            </div>
+          </div>
+          <div class="column portraits">
+            <div class="content">
+              <img src="https://i.ibb.co/HdpJYx6/Copy-of-Untitled-33.png" alt="Portrait 7" style="width:100%"> 
+            </div>
+          </div>
+
+
+          <div class="column custom">
+            <div class="content">
+              <img src="https://i.ibb.co/pjBtykJ/Copy-of-Untitled-22.png" alt="custom 1" style="width:100%"> 
+            </div>
+          </div>
+          
+          <div class="column custom">
+            <div class="content">
+              <img src="https://i.ibb.co/1LPY7fs/Copy-of-Untitled-23.png" alt="custom 2" style="width:100%"> 
+            </div>
+          </div>
+          
+          <div class="column custom">
+            <div class="content">
+              <img src="https://i.ibb.co/6vsy11X/Copy-of-Untitled-24.png" alt="custom 3" style="width:100%"> 
+            </div>
+          </div>
+          
+      <!-- END GRID -->
+      </div>
+
+
+      <div class="footer">
+       
+       <p>&copy;A-Cat's Artistry </p>
+     </div>
+    
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmY1" crossorigin="anonymous"></script>
+</body>
+</html>
